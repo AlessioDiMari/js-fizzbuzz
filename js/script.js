@@ -37,6 +37,12 @@ for(let i = 1; i <= 100; i++){
         newElement.className += " fizz";
         newElement.innerHTML = "fizz";
 
+    } else if( i % 5 == 0 ){
+
+        // chiedo se sia multiplo di 5
+        newElement.className += " buzz";
+        newElement.innerHTML = "buzz";
+
     }
 
 }

@@ -35,3 +35,7 @@
 .square.fizz{
     background-color: orange;
 }
+
+.square.buzz{
+    background-color: aqua;
+}

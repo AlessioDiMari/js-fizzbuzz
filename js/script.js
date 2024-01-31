@@ -17,4 +17,20 @@ for(let i = 1; i <= 100; i++){
     newElement.innerHTML = i;
 
     gridElement.append(newElement);
+
+
+    // Creazione di condizioni secondo le quali 
+    // andrò a cambiare gli elementi ".square"
+    // a seconda che siano multipli di 3, 
+    // di 5 e di entrambi
+    
+
+    // Chiedo se l'elemento é sia multiplo di 3 e di 5
+    if( i % 3 == 0 && i % 5 == 0) {
+
+        newElement.className += " fizzbuzz" 
+        newElement.innerHTML = "FIZZBUZZ";
+        
+    }
+
 }

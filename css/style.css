@@ -1,0 +1,22 @@
+.container{
+    padding: 50px;
+    margin: auto;
+}
+
+#grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+
+}
+
+#grid .square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    
+}

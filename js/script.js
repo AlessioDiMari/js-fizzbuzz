@@ -5,3 +5,16 @@
 // *Prima di partire a scrivere codice poniamoci qualche domanda:*
 // Come faccio a sapere se un numero è divisibile per un altro?
 // Abbiamo visto qualcosa di particolare che possiamo usare?
+
+// Creazione della griglia
+
+const gridElement = document.querySelector("#grid");
+
+for(let i = 1; i <= 100; i++){
+
+    const newElement = document.createElement("div");
+    newElement.className = "square"
+    newElement.innerHTML = i;
+
+    gridElement.append(newElement);
+}

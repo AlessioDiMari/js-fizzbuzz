@@ -43,6 +43,8 @@ for(let i = 1; i <= 100; i++){
         newElement.className += " buzz";
         newElement.innerHTML = "buzz";
 
+    } else {
+        newElement.className += " norm"
     }
 
 }

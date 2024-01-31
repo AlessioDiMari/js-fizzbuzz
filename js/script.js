@@ -29,8 +29,14 @@ for(let i = 1; i <= 100; i++){
     if( i % 3 == 0 && i % 5 == 0) {
 
         newElement.className += " fizzbuzz" 
-        newElement.innerHTML = "FIZZBUZZ";
+        newElement.innerHTML = "fizzbuz";
         
+    } else if( i % 3 == 0 ) {
+
+        // Chiedo se sia multiplo di 3
+        newElement.className += " fizz";
+        newElement.innerHTML = "fizz";
+
     }
 
 }
